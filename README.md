@@ -1,4 +1,5 @@
 ## CoverFlow SwiftUI App
 
-<img src="https://github.com/yanmoroz/sui-todo-list/blob/main/github-images/1.png?raw=true" width="200">
-|:--:| 
+**Example**
+<img src="https://github.com/yanmoroz/sui-cover-flow/blob/main/github-images/1.png?raw=true" width="200">
+|:--:|
