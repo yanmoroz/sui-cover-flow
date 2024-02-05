@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3F4A5462B7169CD00B613BE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A3F4A5452B7169CD00B613BE /* README.md */; };
+		A3F4A5492B716F2900B613BE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F4A5482B716F2900B613BE /* 1.png */; };
 		A3F6326E2B5F20780037C25C /* CoverFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6326D2B5F20780037C25C /* CoverFlowApp.swift */; };
 		A3F632702B5F20780037C25C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6326F2B5F20780037C25C /* ContentView.swift */; };
 		A3F632722B5F20790037C25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F632712B5F20790037C25C /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3F4A5452B7169CD00B613BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A3F4A5482B716F2900B613BE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		A3F6326A2B5F20780037C25C /* CoverFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F6326D2B5F20780037C25C /* CoverFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowApp.swift; sourceTree = "<group>"; };
 		A3F6326F2B5F20780037C25C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,10 +38,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3F4A5472B716F0C00B613BE /* github-images */ = {
+			isa = PBXGroup;
+			children = (
+				A3F4A5482B716F2900B613BE /* 1.png */,
+			);
+			path = "github-images";
+			sourceTree = "<group>";
+		};
 		A3F632612B5F20780037C25C = {
 			isa = PBXGroup;
 			children = (
+				A3F4A5452B7169CD00B613BE /* README.md */,
 				A3F6326C2B5F20780037C25C /* CoverFlow */,
+				A3F4A5472B716F0C00B613BE /* github-images */,
 				A3F6326B2B5F20780037C25C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,6 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F4A5462B7169CD00B613BE /* README.md in Resources */,
+				A3F4A5492B716F2900B613BE /* 1.png in Resources */,
 				A3F632752B5F20790037C25C /* Preview Assets.xcassets in Resources */,
 				A3F632722B5F20790037C25C /* Assets.xcassets in Resources */,
 			);
